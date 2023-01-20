@@ -82,7 +82,7 @@
             <a href="#"><i class="fa fa-instagram"></i></a>
         </div>
         <ul class="top-widget">
-            <li><i class="fa fa-phone"></i> (+90) 345 6789</li>
+            <li><i class="fa fa-phone"></i> (+90) 536 320 41 24</li>
             <li><i class="fa fa-envelope"></i> info.savarona@gmail.com</li>
         </ul>
     </div>
@@ -95,19 +95,19 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <ul class="tn-left">
-                            <li><i class="fa fa-phone"></i> (+90) 345 6789</li>
+                            <li><i class="fa fa-phone"></i> (+90) 536 320 41 24</li>
                             <li><i class="fa fa-envelope"></i> info.savarona@gmail.com</li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <div class="tn-right">
                             <div class="top-social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100026879394427"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-tripadvisor"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a target="_blank" href="https://www.tripadvisor.ru/Hotel_Review-g673824-d18349394-Reviews-Savarona_Otel-Rize_Rize_Province_Turkish_Black_Sea_Coast.html"><i class="fa fa-tripadvisor"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/savaronaotel/"><i class="fa fa-instagram"></i></a>
                             </div>
-                            <a href="#" class="bk-btn">Booking Now</a>
+                            <a target="_blank" href="https://www.otelz.com/tr/hotel/savarona-otel" class="bk-btn">Booking Now</a>
                             <div class="language-option">
                                 <img src="img/flag.jpg" alt="">
                                 <span>EN <i class="fa fa-angle-down"></i></span>
@@ -169,41 +169,48 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="hero-text">
-                        <h1>Luxury Hotel</h1>
-                        <p>Here are the best hotel booking sites, including recommendations for international
-                            travel and for finding low-priced hotel rooms.</p>
+                        <h1>Savarona Hotel</h1>
+                        <p>Nature is the right place to explore ourselves.</p>
                         <a href="#" class="primary-btn">Discover Now</a>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
                     <div class="booking-form">
                         <h3>Booking Your Hotel</h3>
-                        <form action="#">
+                        <form id="form" class="form__body" action="#">
                             <div class="check-date">
                                 <label for="date-in">Check In:</label>
-                                <input type="text" class="date-input" id="date-in">
+                                <input type="text" class="date-input" id="date-in" name="date-in">
                                 <i class="icon_calendar"></i>
                             </div>
                             <div class="check-date">
                                 <label for="date-out">Check Out:</label>
-                                <input type="text" class="date-input" id="date-out">
+                                <input type="text" class="date-input" id="date-out" name="date-out">
                                 <i class="icon_calendar"></i>
                             </div>
                             <div class="select-option">
                                 <label for="guest">Guests:</label>
-                                <select id="guest">
+                                <select id="guest" name="guest">
+                                    <option value="">1 Adult</option>
                                     <option value="">2 Adults</option>
                                     <option value="">3 Adults</option>
+                                    <option value="">4 Adults</option>
                                 </select>
                             </div>
                             <div class="select-option">
                                 <label for="room">Room:</label>
-                                <select id="room">
+                                <select id="room" name="room">
                                     <option value="">1 Room</option>
-                                    <option value="">2 Room</option>
+                                    <option value="">2 Rooms</option>
+                                    <option value="">3 Rooms</option>
+                                    <option value="">4 Rooms</option>
                                 </select>
                             </div>
-                            <button type="submit">Check Availability</button>
+                            <div class="form__item">
+                                <label for="formMail" class="form__label">E-mail*</label>
+                                <input id="formMail" type="text" name="mail" class="form__input _req _email">
+                            </div>
+                            <button type="submit" class="check-availability">Check Availability</button>
                         </form>
                     </div>
                 </div>
@@ -587,7 +594,7 @@
                         <div class="ft-contact">
                             <h6>Contact Us</h6>
                             <ul>
-                                <li>(+90) 345 6789</li>
+                                <li>(+90) 536 320 41 24</li>
                                 <li>info.savarona@gmail.com</li>
                                 <li>Rize / Merkez/Dağsu mevkii, Turkiye</li>
                             </ul>
@@ -617,7 +624,7 @@
                             <li><a href="#">Environmental Policy</a></li>
                         </ul>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
